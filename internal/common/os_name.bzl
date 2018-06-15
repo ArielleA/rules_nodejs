@@ -30,6 +30,13 @@ def os_name(repository_ctx):
   elif os_name.find("windows") != -1:
     return 'windows_amd64'
   elif os_name.startswith('linux'):
+    res = repository_ctx.execute(["uname", "-m"])
+    if res.return_code == 0:
+      uname = res.stdout.strip()
+      if uname == "aarch64":
+        return "linux_arm64"
+      elif uname == "armhf":
+        return "linux_armv6l"
     return "linux_amd64"
   else:
     fail("Unsupported operating system: " + os_name)

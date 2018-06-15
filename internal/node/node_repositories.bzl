@@ -32,14 +32,20 @@ NODE_REPOSITORIES = {
   # 9.11.1
   "9.11.1-darwin_amd64": ("node-v9.11.1-darwin-x64.tar.gz", "node-v9.11.1-darwin-x64", "7b1fb394aa41a62b477e36df16644bd383cc9084808511f6cd318b835a06aac6"),
   "9.11.1-linux_amd64": ("node-v9.11.1-linux-x64.tar.xz", "node-v9.11.1-linux-x64", "4d27a95d5c2f1c8ef99118794c9c4903e63963418d3e16ca7576760cff39879b"),
+  "9.11.1-linux_arm64": ("node-v9.11.1-linux-arm64.tar.xz", "node-v9.11.1-linux-arm64", "dba2de106fbde2013a204ca9fafdfe67c0426b4e63d186f888e59432ad2dbb03"),
+  "9.11.1-linux_armv6l": ("node-v9.11.1-linux-armv6l.tar.xz", "node-v9.11.1-linux-armv6l", "24e2d8fd0cf95129b0548f6cd1c8511e808348a2d72c33c3c2d8034753a55c02"),
   "9.11.1-windows_amd64": ("node-v9.11.1-win-x64.zip", "node-v9.11.1-win-x64", "0a3566d57ccb7fed95d18fc6c3bc1552a1b1e4753f9bc6c5d45e04f325e1ee53"),
   # 8.11.1
   "8.11.1-darwin_amd64": ("node-v8.11.1-darwin-x64.tar.gz", "node-v8.11.1-darwin-x64", "5c7b05899ff56910a2b8180f139d48612f349ac2c5d20f08dbbeffbed9e3a089"),
   "8.11.1-linux_amd64": ("node-v8.11.1-linux-x64.tar.xz", "node-v8.11.1-linux-x64", "6617e245fa0f7fbe0e373e71d543fea878315324ab31dc64b4eba10e42d04c11"),
+  "8.11.1-linux_arm64": ("node-v8.11.1-linux-arm64.tar.xz", "node-v8.11.1-linux-arm64", "ff518f33751baa8ea4f18853d446357c2edecd930a1526ac9b2eaa79baddc1bf"),
+  "8.11.1-linux_armv6l": ("node-v8.11.1-linux-armv6l.tar.xz", "node-v8.11.1-linux-armv6l", "ae5d9b9804a441b786046e125380ea15755db40a99fb5551582bd6bd59ef71be"),
   "8.11.1-windows_amd64": ("node-v8.11.1-win-x64.zip", "node-v8.11.1-win-x64", "7d49b59c2b5d73a14c138e8a215d558a64a5241cd5035d9824f608e7bba097b1"),
   # 8.9.1
   "8.9.1-darwin_amd64": ("node-v8.9.1-darwin-x64.tar.gz", "node-v8.9.1-darwin-x64", "05c992a6621d28d564b92bf3051a5dc0adf83839237c0d4653a8cdb8a1c73b94"),
   "8.9.1-linux_amd64": ("node-v8.9.1-linux-x64.tar.xz", "node-v8.9.1-linux-x64", "8be82805f7c1ab3e64d4569fb9a90ded2de78dd27cadbb91bad1bf975dae1e2d"),
+  "8.9.1-linux_arm64": ("node-v8.9.1-linux-arm64.tar.xz", "node-v8.9.1-linux-arm64", "f774660980dcf931bf29847a5f26317823a063fa4a56f85f37c3222d77cce7c1"),
+  "8.9.1-linux_armv6l": ("node-v8.9.1-linux-armv6l.tar.xz", "node-v8.9.1-linux-armv6l", "b22e0dbc067c7e92aa0f6f24627a67bd1983bb239154658541489417bcfc739d"),
   "8.9.1-windows_amd64": ("node-v8.9.1-win-x64.zip", "node-v8.9.1-win-x64", "db89c6e041da359561fbe7da075bb4f9881a0f7d3e98c203e83732cfb283fa4a"),
 }
 
